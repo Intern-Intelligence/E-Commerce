@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Modal</title>
+</head>
+<style>
+    dialog{
+        background-color: red;
+    }
+</style>
+<body>
+
+    <!-- Open Modal Button -->
+    <button id="openModal">Open Modal</button>
+
+    <!-- Native Dialog Modal -->
+    <dialog id="myModal">
+        <h2>Modal Title</h2>
+        <p>This is a simple native modal.</p>
+        <button id="closeModal">Close</button>
+    </dialog>
+
+    <script>
+        const modal = document.getElementById("myModal");
+        const openBtn = document.getElementById("openModal");
+        const closeBtn = document.getElementById("closeModal");
+
+        openBtn.addEventListener("click", () => {
+            modal.showModal();  // Open the modal
+        });
+
+        closeBtn.addEventListener("click", () => {
+            modal.close();  // Close the modal
+        });
+    </script>
+
+</body>
+</html>
+
+    
+</body>
+</html>
