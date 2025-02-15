@@ -555,6 +555,7 @@ dialog button{
 .container {
     display: grid;
     grid-template-columns: auto;
+    
     gap: 0px;
   }
   
@@ -639,18 +640,22 @@ dialog button{
   }
   
   .promo form button {
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 10px 18px;
     gap: 10px;
-    width: 90%;
+    width: 80%;
     height: 36px;
     background: #F3D2C9;
     box-shadow: 0px 0.5px 0.5px #F3D2C9, 0px 1px 0.5px rgba(239, 239, 239, 0.5);
     border-radius: 5px;
     border: 0;
+    /* border: 5px solid red; */
+position: relative;
+   bottom: 0.4rem;
     font-style: normal;
     font-weight: 600;
     font-size: 12px;
@@ -663,6 +668,9 @@ dialog button{
     display: grid;
     grid-template-columns: 10fr 1fr;
     padding: 0px;
+    margin-right: 2rem;
+
+    /* border: 5px solid yellow; */
     gap: 5px;
   }
   
