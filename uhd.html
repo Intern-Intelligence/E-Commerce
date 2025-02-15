@@ -3,50 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Add to cart</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dialog Modal</title>
-</head>
-<style>
-    dialog{
-        background-color: red;
-    }
-</style>
-<body>
+    <div class="infocont" id="infocon">
 
-    <!-- Open Modal Button -->
-    <button id="openModal">Open Modal</button>
-
-    <!-- Native Dialog Modal -->
-    <dialog id="myModal">
-        <h2>Modal Title</h2>
-        <p>This is a simple native modal.</p>
-        <button id="closeModal">Close</button>
-    </dialog>
-
-    <script>
-        const modal = document.getElementById("myModal");
-        const openBtn = document.getElementById("openModal");
-        const closeBtn = document.getElementById("closeModal");
-
-        openBtn.addEventListener("click", () => {
-            modal.showModal();  // Open the modal
-        });
-
-        closeBtn.addEventListener("click", () => {
-            modal.close();  // Close the modal
-        });
-    </script>
-
-</body>
-</html>
-
-    
+        <div class="image">
+            <img src="mens 1.png" alt="">
+        </div>
+        <div class="info">
+            <h2>Trends Offer: Trending Shop Now</h2>
+            
+        <h3>Special Price</h3>
+        <h2>Rs.2500</h2>
+        
+        <p> Elevate your style with the latest fashion trends.</p>
+        <p> Stay ahead with outfits that define your personality.</p>
+        <p> Walk with confidence, dress with elegance.</p>
+        
+        <button class="btn buy-btn">Buy Now</button>
+        <button class="btn cart-btn">Add To Cart</button>
+        <br>
+        <button class="btn back-btn">Back</button>
+    </div>
+</div>
 </body>
 </html>

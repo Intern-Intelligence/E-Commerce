@@ -72,4 +72,16 @@
                     border-radius: none;
                     box-shadow: none; 
                   }
+                  .image img{
+                    width:25vw;
+                    /* overflow: hidden; */
+                }
+                .loader {
+                    position: relative;
+                    width: 120px;
+                    height: 90px;
+                    margin-top: 40vh;
+                    left: 45vw;
+                    
+                  }
     }
