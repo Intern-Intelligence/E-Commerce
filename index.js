@@ -249,7 +249,7 @@ setTimeout(hidespinner,2000);
 
 
 function goBack() {
-  window.location.href = "/index.html";
+  window.location.reload();
 }
 
 let modal6=document.getElementById('myModal6');
