@@ -16,7 +16,12 @@
     .show{
         display: none;
     }
-    
+    .show ul{
+        display: none;
+    }
+    .sh{
+        display: none;
+    }
     .humber{
         display: none;
         
